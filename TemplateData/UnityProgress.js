@@ -3,13 +3,12 @@ function UnityProgress(unityInstance, progress) {
     return;
   if (!unityInstance.logo) {
     unityInstance.logo = document.createElement("div");
-   // unityInstance.logo.className = "logo " + unityInstance.Module.splashScreenStyle;
-   // unityInstance.container.appendChild(unityInstance.logo);
+    unityInstance.logo.className = "logo " + unityInstance.Module.splashScreenStyle;
+    unityInstance.container.appendChild(unityInstance.logo);
   }
-  
   if (!unityInstance.progress) {    
     unityInstance.progress = document.createElement("div");
-   // unityInstance.progress.className = "progress " + unityInstance.Module.splashScreenStyle;
+    unityInstance.progress.className = "progress " + unityInstance.Module.splashScreenStyle;
     unityInstance.progress.empty = document.createElement("div");
     unityInstance.progress.empty.className = "empty";
     unityInstance.progress.appendChild(unityInstance.progress.empty);
