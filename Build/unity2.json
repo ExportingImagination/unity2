@@ -3,7 +3,7 @@
 "productName": "movin",
 "productVersion": "0.1",
 "dataUrl": "unity2.data.unityweb",
-"wasmCodeUrl": "unity2.wasm",
+"wasmCodeUrl": "unity2.wasm.code.unityweb",
 "wasmFrameworkUrl": "unity2.wasm.framework.unityweb",
 "graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
